@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: url(https://im0-tub-ru.yandex.net/i?id=03d601c691257838579d97ca78881b4e&n=13https://yandex.ru/images/search?pos=10&from=tabbar&img_url=https%3A%2F%2Fcdn.hipwallpaper.com%2Fi%2F95%2F73%2FcNX2ja.jpg&text=paper+background+&rpt=simage);
+  padding: 100px 0;
+}
+
+
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
+
+.container {
+  width: 800px;
+  min-height: 500px;
+  border: 10px solid #fff;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.header {
+  display: flex;
+  height: 150px;
+}
+
+.title-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  font-size: 30px;
+  background: url(https://images.unsplash.com/photo-1537884944318-390069bb8665?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)no-repeat center center / cover;
+  color: #fff;
+  position: relative;
+  margin-right: 10px;
+}
+
+.title-block::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+}
+
+.title {
+  position: relative;
+  z-index: 1;
+}
+
+.userpic {
+  display: flex;
+  height: 100%;
+  width: 20%;
+  background: url(https://ae01.alicdn.com/kf/HTB1N33Mpv9TBuNjy0Fcq6zeiFXaY/Fashion-Cool-Cat-Glasses-Pet-Dog-Eye-Protection-Sunglasses-Puppy-Kitty-Photo-Props-Toy-Dog-Eyewear.jpg_Q90.jpg_.webp) no-repeat center center / cover;
+}
+
+.nav ul {
+  display: flex;
+  background: rgb(230, 230, 230);
+  margin: 10px 0;
+}
+
+
+.nav li a {
+  padding: 20px;
+  display: flex;
+  text-decoration: none;
+  color: #404040;
+  font-weight: bold;
+  border-right: 1px solid #d1d1d1;
+  transition: background .3s ease;
+
+}
+
+.nav li a:hover {
+  background: rgb(196, 196, 196);
+}
+
+
+.content-wrapper {
+  display: flex;
+}
+
+.content {
+  width: 70%;
+  padding: 20px;
+}
+
+.content p {
+  line-height: 30px;
+}
+
+.sidebar {
+  padding: 20px;
+  width: 30%;
+}
+
+.skills li {
+  padding: 10px 0;
+  transition: transform .5s ease;
+  cursor: pointer;
+}
+
+.skills li:hover {
+  transform: translateX(10px);
+}
